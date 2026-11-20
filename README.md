@@ -1,8 +1,14 @@
-# TP Final - Business Intelligence & Analytics
+# Trabajo Práctico Final - Business Intelligence & Analytics
 
 Dashboard académico que analiza la participación, las calificaciones y la matrícula de tres asignaturas: Álgebra, Algoritmos y Estructuras de Datos, y Probabilidad y Estadística.
 
-**Aplicación desplegada:** https://tp-business-analytics.streamlit.app/
+**Aplicación desplegada:** https://tablero-academico-business-intelligence-and-analytics.streamlit.app/
+
+**Integrantes**
+- Juan Ignacio Pintarelli
+- Aaron Fraga
+- Gastón Cuevas
+- Paula Goldenhorn
 
 ## Estructura del proyecto
 
@@ -47,11 +53,7 @@ Dashboard académico que analiza la participación, las calificaciones y la matr
         └── theme.css         estilos
 ```
 
-`data/kpis/` no existe hasta que se ejecutan los notebooks de `jupyter/kpis/`: ellos la crean y la llenan. La aplicación no la necesita.
-
 ## Investigación (`jupyter/`)
-
-Es el trabajo previo con los datos, hecho en notebooks. Sigue este orden:
 
 1. **Limpieza por asignatura** (`algebra`, `algoritmosestructuras`, `probabilidadestadistica`): toman los reportes exportados de la plataforma (calificaciones, participación y trazabilidad), corrigen errores y los guardan en formato Parquet.
 2. **Matriculados** (`matriculados`): consolida los listados oficiales de las tres asignaturas.
@@ -60,18 +62,25 @@ Es el trabajo previo con los datos, hecho en notebooks. Sigue este orden:
 
 ## Aplicación (`src/`)
 
-Es la parte que se publica. Lee los datos de `data/integrado/` y los muestra en siete pantallas: General, Participación, Trazabilidad, Rendimiento Académico, Notas vs Participación, Individual, y Matrícula y Alertas.
+Lee los datos de `data/integrado/` y los muestra en siete pantallas: General, Participación, Trazabilidad, Rendimiento Académico, Notas vs Participación, Individual, y Matrícula y Alertas.
 
 - `data/kpis/` calcula los indicadores a partir de los datos integrados.
 - `data/services/` toma esos resultados y arma las tablas de cada pantalla.
 - `ui/` dibuja las pantallas con Streamlit.
 
-## Cómo ejecutarla en la computadora
+## Cómo ejecutar la aplicación
 
 ```bash
-python3 -m venv .venv
-.venv/bin/python -m pip install -r requirements.txt
-.venv/bin/streamlit run src/app.py
+# Configurar entorno virtual
+python -m venv env
+source env/Scripts/activate
+
+# Instalar dependencias
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+
+# Correr la aplicación 
+streamlit run src/app.py
 ```
 
 La aplicación queda disponible en http://localhost:8501.
