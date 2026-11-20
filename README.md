@@ -15,7 +15,8 @@ Dashboard académico que analiza la participación, las calificaciones y la matr
 ```
 .
 ├── README.md
-├── Trabajo Final Integrador - BI&A.md   consigna del trabajo
+├── Consignas TFI.md          consigna del trabajo
+├── INFORME TECNICO.pdf       informe técnico del trabajo
 ├── requirements.txt          dependencias de Python
 ├── .gitignore                archivos que no se suben (entornos, secretos, salidas generadas)
 ├── .streamlit/               configuración (tema) de Streamlit
