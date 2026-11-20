@@ -19,8 +19,7 @@ Dashboard académico que analiza la participación, las calificaciones y la matr
 │   ├── algoritmosestructuras/
 │   ├── probabilidadestadistica/
 │   ├── matriculados/         listados oficiales de matriculados
-│   ├── integrado/            las tres asignaturas unidas (lo que lee la aplicación)
-│   └── kpis/                 gráficos generados por los notebooks de indicadores (no se versiona)
+│   └── integrado/            las tres asignaturas unidas (lo que lee la aplicación)
 │
 ├── jupyter/                  INVESTIGACIÓN
 │   ├── algebra.ipynb
