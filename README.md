@@ -2,15 +2,16 @@
 
 **Trabajo Práctico Final de BI & Analytics.**
 
-Dashboard académico que analiza la participación, el rendimiento y la matrícula en tres asignaturas (Álgebra, Algoritmos y Estructuras de Datos, y Probabilidad y Estadística) de una plataforma educativa. Datos sintéticos.
-
 **Aplicación desplegada:** https://tablero-academico-business-intelligence-and-analytics.streamlit.app/
 
-**Integrantes**
+## Integrantes
 - Juan Ignacio Pintarelli
 - Aaron Fraga
 - Gastón Cuevas
 - Paula Goldenhorn
+
+## Descripción
+Dashboard académico que analiza la participación, el rendimiento y la matrícula en tres asignaturas (Álgebra, Algoritmos y Estructuras de Datos, y Probabilidad y Estadística) de una plataforma educativa. Datos sintéticos.
 
 ## Estructura del proyecto
 
