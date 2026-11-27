@@ -2,7 +2,7 @@
 
 **Trabajo Práctico Final de BI & Analytics.**
 
-[Aplicación desplegada (Streamlit)]:(https://tablero-academico-business-intelligence-and-analytics.streamlit.app/)
+[Aplicación desplegada (Streamlit)](https://tablero-academico-business-intelligence-and-analytics.streamlit.app/)
 
 ## Integrantes
 - Juan Ignacio Pintarelli
