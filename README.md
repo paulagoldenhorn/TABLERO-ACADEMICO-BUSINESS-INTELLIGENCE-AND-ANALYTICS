@@ -1,6 +1,8 @@
-# Trabajo Práctico Final - Business Intelligence & Analytics
+# Tablero de Indicadores Académicos (KPIs) para la Gestión Educativa
 
-Dashboard académico que analiza la participación, las calificaciones y la matrícula de tres asignaturas: Álgebra, Algoritmos y Estructuras de Datos, y Probabilidad y Estadística.
+Trabajo Práctico Final de BI & Analytics.
+
+Dashboard académico que analiza la participación, el rendimiento y la matrícula en tres asignaturas (Álgebra, Algoritmos y Estructuras de Datos, y Probabilidad y Estadística) de una plataforma educativa. Datos sintéticos.
 
 **Aplicación desplegada:** https://tablero-academico-business-intelligence-and-analytics.streamlit.app/
 
