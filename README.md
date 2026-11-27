@@ -1,6 +1,6 @@
 # Tablero de Indicadores Académicos (KPIs) para la Gestión Educativa
 
-Trabajo Práctico Final de BI & Analytics.
+**Trabajo Práctico Final de BI & Analytics.**
 
 Dashboard académico que analiza la participación, el rendimiento y la matrícula en tres asignaturas (Álgebra, Algoritmos y Estructuras de Datos, y Probabilidad y Estadística) de una plataforma educativa. Datos sintéticos.
 
